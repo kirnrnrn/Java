@@ -11,11 +11,11 @@ public class Q1 {
 		int eng;
 		int sum;
 		int avg;
-		System.out.println("±¹¾î Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À:");
+		System.out.println("êµ­ì–´ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤:");
 		kor = input.nextInt();
-		System.out.println("¼öÇĞ Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À:");
+		System.out.println("ìˆ˜í•™ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤:");
 		mat = input.nextInt();
-		System.out.println("¿µ¾î Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println("ì˜ì–´ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤");
 		eng = input.nextInt();
 		sum = kor + mat + eng;
 		avg = sum/3;
