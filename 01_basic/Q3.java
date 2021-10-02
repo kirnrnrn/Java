@@ -9,10 +9,10 @@ public class Q3 {
 		int b;
 		int sum;
 		
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À:");
+		System.out.println("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤:");
 		a = input.nextInt();
 	
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À:");
+		System.out.println("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤:");
 		b = input.nextInt();
 		
 		sum = a + b;
