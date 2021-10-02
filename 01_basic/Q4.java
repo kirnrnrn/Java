@@ -11,18 +11,18 @@ public class Q4 {
 		int avg;
 		
 		
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤");
 		a = input.nextInt();
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤");
 		b = input.nextInt();
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤");
 		c = input.nextInt();
 		
 		sum = a + b + c;
 		avg = sum/3;
 		
-		System.out.println("¼¼ °³ÀÇ Á¤¼öÀÇ ÇÕ:" + sum);
-		System.out.println("¼¼ °³ÀÇ Á¤¼öÀÇ Æò±Õ:" + avg);
+		System.out.println("ì„¸ ê°œì˜ ì •ìˆ˜ì˜ í•©:" + sum);
+		System.out.println("ì„¸ ê°œì˜ ì •ìˆ˜ì˜ í‰ê· :" + avg);
 		
 		input.close();
 	}
