@@ -1,0 +1,39 @@
+package homework2;
+import java.util.Scanner;
+public class Q4 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int mh;
+		int mw;
+		int gh;
+		int gw;
+		
+		System.out.println("�μ��� Ű��?");
+		mh = input.nextInt();
+		System.out.println("�μ��� �����Դ�?");
+		mw = input.nextInt();
+		
+		System.out.println("�⿵���� Ű��?");
+		gh = input.nextInt();
+		System.out.println("�⿵���� �����Դ�?");
+		gw = input.nextInt();
+		
+		if (mh>gh) {
+			if (mw> gw) {
+				System.out.println("1");
+			}
+			else {
+				System.out.println("0");
+			}
+		}
+		else {
+			System.out.println("0");
+		}
+		
+		
+		
+		input.close();
+	}
+
+}
