@@ -1,0 +1,26 @@
+package homework2;
+import java.util.Scanner;
+public class Q1 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a;
+		int b;
+		boolean c;
+		System.out.println(" 정수를 입력하시오");
+		a = input.nextInt();
+		System.out.println(" 정수를 입력하시오");
+		b = input.nextInt();
+		
+		c = (a>b);
+		System.out.println(a +">"+b +"---" +c);
+		c = (a<b);
+		System.out.println(a +"<"+b +"---" +c);
+		c = (a>=b);
+		System.out.println(a +">="+b +"---" +c);
+		c = (a<=b);
+		System.out.println(a +"<="+b +"---" +c);
+		input.close();
+	}
+
+}
