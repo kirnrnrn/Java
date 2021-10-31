@@ -1,0 +1,36 @@
+package homework3;
+import java.util.Scanner;
+public class Q5 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String gen;
+		int age;
+		System.out.println("성별을 입력하시오");
+		gen = input.next();
+		System.out.println("나이를 입력하시오");
+		age = input.nextInt();
+		
+		switch(gen) {
+		case "M":
+			if (age>=18) {
+				System.out.println("Man");
+			}
+			else {
+				System.out.println("Boy");
+			}
+			break;
+		case "F":
+			if (age>=18) {
+				System.out.println("Woman");
+			}
+			else {
+				System.out.println("Girl");
+			}
+			break;
+		}
+		input.close();
+	}
+	}
+	
+
