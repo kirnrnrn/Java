@@ -1,0 +1,15 @@
+package homework4;
+
+public class Q7 {
+
+	public static void main(String[] args) {
+		for( int i =2; i<7;i++) {
+			for(int k =i; k<i +5; k++) {
+				System.out.print(k +" ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}
