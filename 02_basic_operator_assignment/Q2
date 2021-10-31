@@ -1,6 +1,6 @@
 package homework2;
 import java.util.Scanner;
-//저 지난번부터 system.out.printf();가 오류가 떴는데 교수님께서 println으로 하라고 하셔서 그냥 println오로 하겠습니다~
+
 
 
 public class Q2 {
