@@ -1,0 +1,38 @@
+package homework3;
+import java.util.Scanner;
+
+public class Q2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("영대문자 입력");
+		String word =input.next();
+		
+		switch (word) {
+		case "A":
+			System.out.println("Excellent");
+			break;
+		case "B":
+			System.out.println("Good");
+			break;
+		case "C":
+			System.out.println("Usually");
+			break;
+		case "D":
+			System.out.println("Effort");
+			break;
+		case "E":
+			System.out.println("Failure");
+			break;
+		case "F":
+			System.out.println("error");
+			break;
+		default:
+			System.out.println("error");
+			break;
+		}
+		
+		input.close();
+	}
+
+}
