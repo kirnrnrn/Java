@@ -1,0 +1,28 @@
+package homework3;
+import java.util.Scanner;
+public class Q6 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int y;
+		System.out.println("년도를 입력하시오");
+		y = input.nextInt();
+		if (y % 4 == 0) {
+			if (y % 100 != 0) {
+				System.out.println("leap year");
+			}
+			else {
+				System.out.println("common year");
+			}
+			
+		}
+		else if (y % 400 == 0) {
+			System.out.println("leap year");
+		}
+		else {
+			System.out.println("common year");
+		}
+		input.close();
+	}
+
+}
