@@ -17,9 +17,9 @@ public class Q3 {
 		 c= ++a;
 		 d= --b;
 		 e= c*d;
-		 System.out.println(c);
-		 System.out.println(d);
-		 System.out.println(e);
+		 System.out.print(c + " " + d + " " + e);
+		 
+		 
 		 
 		 input.close();
 		 
