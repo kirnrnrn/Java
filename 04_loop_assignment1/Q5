@@ -1,0 +1,28 @@
+package homework4;
+import java.util.Scanner;
+public class Q5 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int num;
+		int i = 0;
+		System.out.println("정수를 입력하시오:");
+		
+		while(true) {
+			num = input.nextInt();
+		if (num == 0) {
+		    break;
+		}
+		else {
+			if (num%3 ==0 || num%5 == 0) {
+				continue;
+			}
+			else {
+				i++;
+			}
+		 }
+		}
+		
+		System.out.println(i);
+		input.close();
+	}
+}
