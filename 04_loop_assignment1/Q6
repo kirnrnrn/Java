@@ -1,0 +1,25 @@
+package homework4;
+import java.util.Scanner;
+public class Q6 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int B;
+		int H;
+		double TW;
+		String cont;
+		do {
+		System.out.println("밑변의 길이:");
+		B =input.nextInt();
+		System.out.println("높이의 길이:");
+		H = input.nextInt();
+		TW = B*H/2.0;
+		System.out.println("Triangle width =" + TW);
+		System.out.print("continue? ");
+        cont = input.next();
+		
+		}while(cont.equals("Y") || cont.equals("y"));
+		input.close();
+	}
+
+}
