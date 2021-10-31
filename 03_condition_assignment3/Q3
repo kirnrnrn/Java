@@ -1,0 +1,32 @@
+package homework3;
+import java.util.Scanner;
+public class Q3 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a;
+		System.out.println("Number?");
+		a = input.nextInt();
+		
+		switch(a) {
+		case 1:
+			System.out.println("dog");
+			break;
+		case 2:
+			System.out.println("cat");
+			break;
+		case 3:
+			System.out.println("chick");
+			break;
+		default:
+			System.out.println("I don't know.");
+			break;
+		}
+		
+	
+	
+		input.close();
+	
+	}
+
+}
