@@ -9,14 +9,14 @@ public class Q4 {
 		int gh;
 		int gw;
 		
-		System.out.println("�μ��� Ű��?");
+		System.out.println("민수의 키는?");
 		mh = input.nextInt();
-		System.out.println("�μ��� �����Դ�?");
+		System.out.println("민수의 몸무게는?");
 		mw = input.nextInt();
 		
-		System.out.println("�⿵���� Ű��?");
+		System.out.println("기영이의 키는?");
 		gh = input.nextInt();
-		System.out.println("�⿵���� �����Դ�?");
+		System.out.println("기영이의 몸무게는?");
 		gw = input.nextInt();
 		
 		if (mh>gh) {
