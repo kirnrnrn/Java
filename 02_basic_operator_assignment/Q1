@@ -7,9 +7,9 @@ public class Q1 {
 		int a;
 		int b;
 		boolean c;
-		System.out.println(" ������ �Է��Ͻÿ�");
+		System.out.println(" 정수를 입력하시오 ");
 		a = input.nextInt();
-		System.out.println(" ������ �Է��Ͻÿ�");
+		System.out.println(" 정수를 입력하시오 ");
 		b = input.nextInt();
 		
 		c = (a>b);
