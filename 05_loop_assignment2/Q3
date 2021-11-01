@@ -1,0 +1,22 @@
+package homework5;
+import java.util.Scanner;
+
+public class Q3 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a;
+		int b;
+		System.out.println("열 입력:");
+		a =input.nextInt();
+		System.out.println("행 입력:");
+		b =input.nextInt();
+		for(int i=1; i<=a; i++) {
+			for (int k=1; k<=b; k++) {
+				System.out.print(i*k + " ");
+			}
+			System.out.println();
+		}
+		input.close();
+	}
+}
+	
