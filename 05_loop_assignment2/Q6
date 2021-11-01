@@ -1,0 +1,22 @@
+package homework5;
+import java.util.Scanner;
+public class Q6 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a;
+		System.out.println("1부터 100사이의 숫자 입력:");
+		a = input.nextInt();
+		for(int i =1; a*i<=100; i++) {
+			System.out.print(a*i + " ");
+			
+			if((a*i)%10 ==0) {
+				break;
+			}
+		}
+		
+		input.close();
+
+	}
+
+}
