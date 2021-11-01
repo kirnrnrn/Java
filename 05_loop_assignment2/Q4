@@ -1,0 +1,19 @@
+package homework5;
+import java.util.Scanner;
+public class Q4 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a;
+		System.out.println("자연수 입력:");
+		a= input.nextInt();
+		for(int i=1; i<=a; i++) {
+			for(int k=1; k<=i;k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		input.close();
+	}
+
+}
