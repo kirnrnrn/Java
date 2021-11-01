@@ -1,0 +1,24 @@
+package homework5;
+import java.util.Scanner;
+public class Q9 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int a;
+		int b=1;
+		System.out.println("자연수 입력:");
+		a = input.nextInt();
+		for(int i =0; i<a; i++) {
+			for(int k = 0; k< a; k++) {
+				
+				System.out.print(b +" ");
+				b =(b+2)%10;
+			}
+			System.out.println();
+		}
+		input.close();
+
+	}
+
+}
