@@ -1,0 +1,25 @@
+package homework5;
+import java.util.Scanner;
+public class Q8 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a;
+		int b =1;
+		System.out.println("자연수를 압력하시오:");
+		a = input.nextInt();
+		
+		for(int i =0; i< a;i++) {
+			
+			for(int k =0;k <i;k++ ) {
+				System.out.print("  ");
+			}
+			for(int k =0; k<=a-i-1; k++) {
+				System.out.print(b++ +" ");
+			}
+			System.out.println();
+		}
+		input.close();
+	}
+
+}
