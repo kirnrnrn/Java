@@ -1,0 +1,57 @@
+package extraHomework;
+
+class Account{
+	private String account;
+	private int balance;
+	private double interestRate;
+	public Account() {
+		
+	}
+	public Account (String account, int balance, double interestRate) {
+		this.account = account;
+		this.balance = balance;
+		this.interestRate = interestRate;
+	}
+	public void setAccount( String account) {
+		this.account =account;
+	}
+	public String getAccount() {
+		return account;
+	}
+	public void setBalance(int balance) {
+		this.balance =balance;
+	}
+	public int getBalance() {
+		return balance;
+	}
+	public void setinterestRate(double interestRate) {
+		this.interestRate = interestRate;
+	}
+	public double getinterestRate() {
+		return interestRate;
+	}
+	public double calculateInterest() {
+		return balance*interestRate;
+	}
+	public void deposit(int money) {
+		balance = money + balance;
+	}
+	public void withdraw( int money) {
+		balance = balance- money;
+	}
+}
+public class AccountTest {
+	public static void main (String[] args) {
+		
+		Account account = new Account("411-0290-1203",500000,7.3/100); 
+		
+		System.out.println("계좌정보:" + account.getAccount() +"현재잔액:" +account.getBalance());
+		
+		account.deposit(20000);
+		account.calculateInterest();
+		
+		System.out.println("계좌정보:"+account.getAccount() + "현재잔액:" + account.getBalance());
+		System.out.println("이자:" +account.calculateInterest());
+	}
+
+}
